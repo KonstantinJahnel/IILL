@@ -1,4 +1,4 @@
-var illImage = {
+var iillImage = {
     // Properties
     name : "",
     path :  "",
@@ -7,7 +7,10 @@ var illImage = {
         x: 0, 
         y: 0
     },
-
+    hexcodeArea : "",
     // Methods
 
+    getHexcodeArea: function(){
+        return this.hexcodeArea;
+    }
 };
