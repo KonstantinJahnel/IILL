@@ -1,16 +1,52 @@
 var iillImage = {
     // Properties
-    name : "",
-    path :  "",
-    index : null,
-    followingPoint : {
+    Name : "",
+    Path :  "",
+    Index : null,
+    FollowingPoint : {
         x: 0, 
         y: 0
     },
-    hexcodeArea : "",
+    HexcodeArea : "",
+    
     // Methods
-
-    getHexcodeArea: function(){
+    getHexcodeArea: function()
+    {
         return this.hexcodeArea;
+    },
+    setHexCodeArea: function(hexcodeArea)
+    {
+        if(!hexcodeArea)
+            return;
+        this.hexcodeArea = hexcodeArea;
+    },
+    getName: function()
+    {
+        return this.name;
+    },
+    setName: function(name)
+    {
+        if(!name)
+            return;
+    
+        this.Name = name;
+    },
+    getPath : function()
+    {
+        return this.Path;
+    },
+    setPath : function(path)
+    {
+        if(!path)
+            return;
+        this.Path = path;
+    },
+    getIndex : function()
+    {
+        return this.Index;
+    },
+    setIndex : function(index)
+    {
+        this.Index = index;
     }
 };
